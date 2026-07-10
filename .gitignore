@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.claude/settings.json
+
+# Project artifacts
+*.pkl
+GUI/temp.jpg
+/Testing/Lung cancer
+/Testing
+/train
