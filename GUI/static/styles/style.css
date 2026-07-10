@@ -1,0 +1,56 @@
+body{
+		background-image: url(cancer2.jpg);
+		background-repeat:no-repeat;
+		background-position:center;
+		background-attachment:fixed;
+		background-size:cover;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 170px;
+        
+}
+#imageForm{
+padding:20px;
+text-align:center;}
+#button1{
+padding:5px;
+margin-top:10px;}
+#fileInput{
+padding:10px;}
+div{
+        backdrop-filter: blur(10px);
+        padding: 10px;
+            
+}
+p{
+	color:black;
+	font-size:20px;
+}
+h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }

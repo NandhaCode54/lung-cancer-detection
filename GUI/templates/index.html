@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+    <title>Image Classification</title>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <div class="div">
+        <h1>LUNG CANCER DETECTION</h1>
+        <form id="imageForm" enctype="multipart/form-data">
+            <input type="file" id="fileInput" accept="image/*">
+            <br>
+            <button type="button" id="button1" onclick="classifyImage()">Submit</button>
+        </form>
+        <h2>Results:</h2>
+        <p id="prediction">{{ prediction }}</p>
+    </div>
+</body>
+</html>
